@@ -534,7 +534,7 @@ svg{ width: 1.25em; height: 1.25em; flex-shrink: 0; }
 }
 .contact-form-panel h3{ font-size: 1.25rem; }
 .form-panel-sub{ margin-bottom: var(--space-3); }
-.contact-form-panel iframe{ display: block; border: none; }
+.contact-form-panel iframe{ display: block; border: none; background: var(--color-surface); box-shadow: none; }
 
 /* ---------- Footer ---------- */
 .site-footer{ border-top: 1px solid var(--color-border); padding-block: var(--space-4); }
