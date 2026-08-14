@@ -180,8 +180,7 @@ svg{ width: 1.25em; height: 1.25em; flex-shrink: 0; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(237,231,221,.85);
-  backdrop-filter: blur(10px);
+  background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
 }
 .header-inner{
